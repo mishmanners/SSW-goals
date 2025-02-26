@@ -1,2 +1,2 @@
 # SSW-goals
-SSW goals and milestones.
+My personal goals for my work at SSW as the Senior Developer Advocate.
