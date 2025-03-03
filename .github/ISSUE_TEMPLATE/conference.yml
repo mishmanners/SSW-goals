@@ -26,7 +26,7 @@ body:
   - type: dropdown
     id: Type
     attributes:
-      label: style
+      label: Event type
       description: "What kind of event is this?"
       options:
         - Conference
