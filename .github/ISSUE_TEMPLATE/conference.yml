@@ -1,0 +1,6 @@
+name: Upcoming Conference
+description: Open an issue for an upcoming talk, meetup, or conference
+title: "[TALK/CONFERENCE]: "
+labels: [Developer-Community, conference]
+assignees:
+  - mishmanners
