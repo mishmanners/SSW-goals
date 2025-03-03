@@ -1,5 +1,5 @@
 name: "Upcoming Conference"
-description: Open an issue for an upcoming talk, meetup, or conference
+description: "Open an issue for an upcoming talk, meetup, or conference"
 title: "[TALK NAME]: [CONFERENCE], (Day, Month, Year)"
 labels: [Developer-Community, conference]
 assignees:
@@ -13,7 +13,7 @@ body:
     id: title
     attributes:
       label: title
-      description: What is the title of the talk?
+      description: "What is the title of the talk?"
     validations:
       required: true
      
@@ -21,7 +21,7 @@ body:
     id: talk
     attributes:
       label: abstract 
-      description: What is the talk abstract?
+      description: "What is the talk abstract?"
     validations:
       required: true
 
@@ -29,7 +29,7 @@ body:
     id: Type
     attributes:
       label: style
-      description: What kind of event is this?
+      description: "What kind of event is this?"
       options:
         - Conference
         - Meetup or User group
@@ -41,7 +41,7 @@ body:
     id: products
     attributes:
       label: prods
-      description: What SSW products are being showcased in this talk
+      description: "What SSW products are being showcased in this talk?"
       options:
         - label: SSW Rules
           required: false
