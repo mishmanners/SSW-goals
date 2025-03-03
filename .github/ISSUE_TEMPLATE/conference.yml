@@ -36,7 +36,7 @@ body:
     validations:
       required: true
 
-    - type: checkboxes
+  - type: checkboxes
     id: products
     attributes:
       label: What SSW products are being showcased in this talk
@@ -46,42 +46,4 @@ body:
         - label: TinaCMS
           required: false
         - label: YakShaver
-          required: false
-        - label: SSW Rewards
-          required: false
-        - label: SugarLearning
-          required: false
-
-    - type: dropdown
-    id: Booth
-    attributes:
-      label: Does SSW have a booth at this event?
-      options:
-        - Yes
-        - No
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: requirements
-    attributes:
-      label: What you need to do for the conference:
-      options:
-        - label: Approval
-          required: false
-        - label: Email
-          required: false
-        - label: SSW Rewards check in QR coee
-          required: false
-        - label: Social media promotion
-          required: false
-        - label: Promo on SSW page
-          required: false
-        - label: Book flights/accommodation
-          required: false
-        - label: International travel request
-          required: false
-        - label: Finalised takk
-          required: false
-        - label: Trip Report
-          required: false
+ ▋
