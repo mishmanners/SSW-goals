@@ -46,6 +46,10 @@ body:
           required: false
         - label: YakShaver
           required: false
+        - label: SSW Rewards
+          required: false
+        - label: SugarLearning
+          required: false
   - type: checkboxes
     id: list
     attributes:
