@@ -37,7 +37,7 @@ body:
       required: true
 
   - type: checkboxes
-    id: SSW Products
+    id: products
     attributes:
       label: What SSW products are being showcased in this talk
       options:
