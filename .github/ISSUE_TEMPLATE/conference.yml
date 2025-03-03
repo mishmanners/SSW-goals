@@ -36,22 +36,6 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: products
-    attributes:
-      label: What SSW products are being showcased in this talk
-      options:
-        - label: SSW Rules
-          required: false
-        - label: TinaCMS
-          required: false
-        - label: YakShaver
-          required: false
-        - label: SSW Rewards
-          required: false
-        - label: SugarLearning
-          required: false
-
     - type: dropdown
     id: Booth
     attributes:
