@@ -1,6 +1,6 @@
 name: "Upcoming Conference"
 description: "Open an issue for an upcoming talk, meetup, or conference"
-title: "[TALK NAME]: [CONFERENCE], (Day, Month, Year): "
+title: "[CONFERENCE]: [TALK NAME], (Day, Month, Year): "
 labels: [Developer-Community, conference]
 assignees:
   - mishmanners
