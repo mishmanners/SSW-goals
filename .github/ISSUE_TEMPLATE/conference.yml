@@ -12,15 +12,15 @@ body:
   - type: input
     id: title
     attributes:
-      label: Name of your talk
-      description: What is the title of the talk
+      label: title
+      description: What is the title of the talk?
     validations:
       required: true
      
   - type: textarea
     id: talk
     attributes:
-      label: Talk 
+      label: abstract 
       description: What is the talk abstract?
     validations:
       required: true
@@ -28,7 +28,8 @@ body:
   - type: dropdown
     id: Type
     attributes:
-      label: What kind of event is this?
+      label: style
+      description: What kind of event is this?
       options:
         - Conference
         - Meetup or User group
@@ -39,7 +40,8 @@ body:
   - type: checkboxes
     id: products
     attributes:
-      label: What SSW products are being showcased in this talk
+      label: prods
+      description: What SSW products are being showcased in this talk
       options:
         - label: SSW Rules
           required: false
