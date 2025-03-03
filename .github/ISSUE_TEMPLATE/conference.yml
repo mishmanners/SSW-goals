@@ -1,6 +1,81 @@
 name: Upcoming Conference
 description: Open an issue for an upcoming talk, meetup, or conference
-title: "[TALK/CONFERENCE]: "
+title: "[TALK NAME]: [CONFERENCE], (Day, Month, Year)"
 labels: [Developer-Community, conference]
 assignees:
   - mishmanners
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Add in the name of the conference, talk, meetup, and the title of the talk
+  - type: input
+    id: title
+    attributes:
+      label: Name of your talk
+      description: What is the title of the talk
+    validations:
+      required: true
+     
+  - type: textarea
+    id: talk
+    attributes:
+      label: Talk 
+      description: What is the talk abstract?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: Type
+    attributes:
+      label: What kind of event is this?
+      options:
+        - Conference
+        - Meetup or User group
+        - Workshop
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: SSW Products
+    attributes:
+      label: What SSW products are being showcased in this talk
+      options:
+        - label: SSW Rules
+          required: false
+        - label: TinaCMS
+          required: false
+        - label: YakShaver
+          required: false
+        - label: SSW Rewards
+          required: false
+        - label: SugarLearning
+          required: false
+
+    - type: dropdown
+    id: Booth
+    attributes:
+      label: Does SSW have a booth at this event?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: What you need to do for the conference:
+      options:
+        - label: Approval
+          required: false
+        - label: Email
+          required: false
+        - label: Social media promotion
+          required: false
+        - label: Book flights/accommodation
+          required: false
+        - label: International travel request
+          required: false
+        - label: Trip Report
+          required: false
