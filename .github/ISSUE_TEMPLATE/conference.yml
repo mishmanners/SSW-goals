@@ -12,14 +12,14 @@ body:
   - type: input
     id: title
     attributes:
-      label: title
+      label: Title of talk
       description: "What is the title of the talk?"
     validations:
       required: true
   - type: textarea
     id: talk
     attributes:
-      label: abstract 
+      label: Abstract 
       description: "What is the talk abstract?"
     validations:
       required: true
@@ -37,7 +37,7 @@ body:
   - type: checkboxes
     id: products
     attributes:
-      label: prods
+      label: SSW Products
       description: "What SSW products are being showcased in this talk?"
       options:
         - label: SSW Rules
@@ -46,3 +46,26 @@ body:
           required: false
         - label: YakShaver
           required: false
+  - type: checkboxes
+    id: list
+    attributes:
+      label: Checklist for all conferences, talks, and meetups
+      description: "Tick each off as you go"
+      options:
+        - label: Approval
+          required: false
+        - label: Email
+          required: false
+        - label: Flights and accommodation booked
+          required: false
+        - label: International travel exception
+          required: false
+        - label: Get talk on SSW website
+          required: false
+        - label: SSW Rewards app QR code
+          required: false
+        - label: Social media promo
+          required: false
+        - label: Post event report
+          required: false
+      
