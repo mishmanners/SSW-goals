@@ -16,7 +16,6 @@ body:
       description: "What is the title of the talk?"
     validations:
       required: true
-     
   - type: textarea
     id: talk
     attributes:
@@ -24,7 +23,6 @@ body:
       description: "What is the talk abstract?"
     validations:
       required: true
-
   - type: dropdown
     id: Type
     attributes:
@@ -36,7 +34,6 @@ body:
         - Workshop
     validations:
       required: true
-
   - type: checkboxes
     id: products
     attributes:
@@ -48,4 +45,4 @@ body:
         - label: TinaCMS
           required: false
         - label: YakShaver
- ▋
+          required: false
