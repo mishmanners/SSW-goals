@@ -71,11 +71,17 @@ body:
           required: false
         - label: Email
           required: false
+        - label: SSW Rewards check in QR coee
+          required: false
         - label: Social media promotion
+          required: false
+        - label: Promo on SSW page
           required: false
         - label: Book flights/accommodation
           required: false
         - label: International travel request
+          required: false
+        - label: Finalised takk
           required: false
         - label: Trip Report
           required: false
