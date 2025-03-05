@@ -58,7 +58,15 @@ body:
       options:
         - label: Chat to Adam and Gert (pre-approval)
           required: false
-        - label: Get talk on SSW website
+        - label: Approval for remote working
+          required: false
+        - label: If SSW present at event ask Penny to include talk on website
+          required: false
+        - label: Send email with all conference details to Gert, Adam, and Uly (include above three checkpoints)
+          required: false
+        - label: Book flights and accommodation
+          required: false
+        - label: International travel exception form
           required: false
         - label: SSW Rewards app QR code
           required: false
@@ -66,3 +74,7 @@ body:
           required: false
         - label: Post event report
           required: false
+  - type: URLs
+    attributes:
+      value: |
+        Here are some URLs you'll need, [Approval for remote working](https://my.sugarlearning.com/SSW/items/14116/training-conferences-self-education-and-software-licenses#2-process-for-attending-training-and-conferences) and [International travel exception form](https://forms.office.com/pages/responsepage.aspx)
