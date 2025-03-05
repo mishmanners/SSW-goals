@@ -56,13 +56,17 @@ body:
       label: Checklist for all conferences, talks, and meetups
       description: "Tick each off as you go"
       options:
-        - label: Approval
+        - label: Chat to Adam and Gert (pre-approval)
           required: false
-        - label: Email
+        - label: [Approval for remote working](https://my.sugarlearning.com/SSW/items/14116/training-conferences-self-education-and-software-licenses#2-process-for-attending-training-and-conferences) (if outside Melbourne)
           required: false
-        - label: Flights and accommodation booked
+        - label: If SSW present at event ask Penny to include talk on website
           required: false
-        - label: International travel exception
+        - label: Send email with all conference details to Gert, Adam, and Uly (include above three checkpoints)
+          required: false
+        - label: Book flights and accommodation
+          required: false
+        - label: [International travel exception form](https://forms.office.com/pages/responsepage.aspx) submitted
           required: false
         - label: Get talk on SSW website
           required: false
