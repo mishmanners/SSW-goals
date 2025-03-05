@@ -74,7 +74,7 @@ body:
           required: false
         - label: Post event report
           required: false
-  - type: URLs
+  - type: markdown
     attributes:
       value: |
         Here are some URLs you'll need, [Approval for remote working](https://my.sugarlearning.com/SSW/items/14116/training-conferences-self-education-and-software-licenses#2-process-for-attending-training-and-conferences) and [International travel exception form](https://forms.office.com/pages/responsepage.aspx)
