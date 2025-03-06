@@ -63,7 +63,7 @@ body:
           required: false
         - label: If SSW present at event ask Penny to include talk on website
           required: false
-        - label: Send email with all conference details to Gert, Adam, and Uly (include above three checkpoints). Content chooser event-attendance-request
+        - label: Send email with all event details to Gert, Adam, and Uly (include above three checkpoints). Content chooser event-attendance-request
           required: false
         - label: Book flights and accommodation
           required: false
