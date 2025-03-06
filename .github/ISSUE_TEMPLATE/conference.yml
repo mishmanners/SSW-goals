@@ -1,7 +1,7 @@
 name: "Upcoming Conference"
 description: "Open an issue for an upcoming talk, meetup, or conference"
 title: "[CONFERENCE]: [TALK NAME], (Day, Month, Year)"
-labels: [Developer-Community, conference]
+labels: [Developer-Community]
 assignees:
   - mishmanners
 body:
@@ -32,6 +32,7 @@ body:
         - Conference
         - Meetup or User group
         - Workshop
+        - Hackathon
     validations:
       required: true
   - type: checkboxes
